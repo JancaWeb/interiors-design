@@ -1,0 +1,26 @@
+.navBarTopDivider {
+  margin-top: 1rem;
+  height: 0.75rem;
+  background-color: #969693;
+}
+
+.navBarBottomDivider {
+  height: 0.75rem;
+  background-color: #969693;
+}
+
+.linksWrapper {
+  margin: 0.75rem 0;
+  font-size: 1.5rem;
+  color: inherit;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 3rem;
+}
+
+.verticalDividerNavbar {
+  background-color: #969693;
+  width: 0.25rem;
+  height: 3.5rem;
+}

@@ -1,0 +1,121 @@
+.sofaMainImg {
+  max-height: 5rem;
+}
+
+.sofaMainImgWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.mainPageDivider {
+  height: 1.5rem;
+  background-color: #ebc634;
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid #a8a7a3;
+}
+
+.firstRowImagesWrapper {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.planImageWrapper {
+  margin-left: 1rem;
+  flex-basis: 25%;
+  margin-right: 1rem;
+}
+
+.planImage {
+  width: 100%;
+  height: 100%;
+}
+
+.firstFlatPictureWrapper {
+  text-align: center;
+  flex-basis: 85%;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.firstFlatPicture {
+  width: 100%;
+}
+
+.firstFlatTitleWrapper {
+  background-color: #000;
+  padding: 0.5rem 0;
+  color: #fff;
+  text-align: center;
+  margin: 1rem 1rem 0 1rem;
+}
+
+.firstFlatTitle {
+  font-size: 3.5rem;
+  margin: 0;
+}
+
+.humanPicture {
+  width: 100%;
+}
+
+.humanPictureWrapper {
+  padding: 1.3rem;
+  border: 6px solid;
+  margin-right: 1rem;
+  flex-basis: 25%;
+  text-align: center;
+}
+
+.contactEmail {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.contactPhone {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.sofaInFlatWrapper {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  height: 15rem;
+  margin-left: 1rem;
+}
+
+.sofaInFlatPicture {
+  border: 6px solid;
+  width: 60%;
+}
+
+.designForYouHomeWrapper {
+  margin: 0 1rem;
+  background-color: #dbdbdb;
+  padding: 0.3rem 1.5rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+  flex-basis: 50%;
+}
+
+.designForYourHomeTitle {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.designForYourHomeDescription {
+  margin: 2rem 0 0 0;
+  font-size: 1rem;
+  color: #000;
+}
+
+.contactWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
