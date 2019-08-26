@@ -1,20 +1,3 @@
-.sofaMainImg {
-  max-height: 5rem;
-}
-
-.sofaMainImgWrapper {
-  display: flex;
-  justify-content: center;
-}
-
-.mainPageDivider {
-  height: 1.5rem;
-  background-color: #ebc634;
-  width: 70%;
-  margin: 0 auto;
-  border: 1px solid #a8a7a3;
-}
-
 .firstRowImagesWrapper {
   margin-top: 0.5rem;
   display: flex;

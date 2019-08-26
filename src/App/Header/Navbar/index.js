@@ -9,15 +9,11 @@ export const Navbar = () => (
       <div className="linksWrapper">
         <Link to="/" >Главная</Link>
         <div className="verticalDividerNavbar" />
-        <Link to="/" >О нас</Link>
+        <Link to="/about" >О нас</Link>
         <div className="verticalDividerNavbar" />
-        <Link to="/" >Услуги</Link>
-        <div className="verticalDividerNavbar" />
-        <Link to="/" >Проекты</Link>
+        <Link to="/projects" >Проекты</Link>
         <div className="verticalDividerNavbar" />
         <Link to="/" >Онлайн запись</Link>
-        <div className="verticalDividerNavbar" />
-        <Link to="/" >Блог</Link>
         <div className="verticalDividerNavbar" />
         <Link to="/" >Контакты</Link>
       </div>

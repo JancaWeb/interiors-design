@@ -1,0 +1,18 @@
+.humanTileWrapper {
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 15%;
+  text-align: center;
+  background-color: #dbdbdb;
+  border-radius: 10px;
+}
+
+.tilePhoto {
+  width: 100%;
+}
+
+.humanTileContent {
+  padding: 1rem;
+}

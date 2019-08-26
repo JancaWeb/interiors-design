@@ -1,0 +1,48 @@
+.aboutTitleWrapper {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+.aboutTitle {
+  font-size: 2.5rem;
+  margin: 0.5rem 0 0 0;
+}
+
+.aboutPageContentWrapper {
+  display: flex;
+}
+
+.aboutPageContent {
+  background-color: #dbdbdb;
+  border: 3px solid;
+  flex-basis: 35%;
+  font-weight: bold;
+}
+
+.aboutPageFirstParagraph {
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.aboutPageSecondParagraph {
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.aboutPageImageWrapper {
+  flex-basis: 65%;
+  border: 3px solid;
+}
+
+.aboutPageImage {
+  width: 100%;
+  height: 100%;
+}
+
+.ourTeamWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}

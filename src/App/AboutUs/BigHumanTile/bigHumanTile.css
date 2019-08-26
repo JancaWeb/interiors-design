@@ -1,0 +1,23 @@
+.bigHumanTileWrapper {
+  text-align: center;
+  margin: 0 1rem;
+  height: 43rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 25%;
+  background-color: #dbdbdb;
+  border-radius: 10px;
+}
+
+.bigTilePhotoWrapper {
+  height: 25rem;
+}
+
+.bigTilePhoto {
+  width: 100%;
+}
+
+.bigHumanTileContent {
+  padding: 1rem;
+}

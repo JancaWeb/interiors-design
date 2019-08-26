@@ -1,29 +1,22 @@
 import React from 'react';
 
-import sofa from '../../images/sofaMain.png';
 import firstPicture from '../../images/firstPicture.jpg';
 import firstFlatPicture from '../../images/firstPictureMiddle.jpg';
 import humanPicture from '../../images/firstPageHuman.jpg';
 import sofaInFlat from '../../images/firstPageLastPic.jpg';
-import { Navbar } from '../Navbar';
 
 import './homePage.css';
 
 export const HomePage = () => (
   <div>
-    <div className="sofaMainImgWrapper">
-      <img className="sofaMainImg" src={sofa} alt="sofaMain" />
-    </div>
-    <div className="mainPageDivider"/>
-    <Navbar />
     <div className="firstRowImagesWrapper">
-      <div className="planImageWrapper">
+      <div className="planImageWrapper grow">
         <img src={firstPicture} alt='planImage' className="planImage"/>
       </div>
-      <div className="firstFlatPictureWrapper">
+      <div className="firstFlatPictureWrapper grow">
         <img src={firstFlatPicture} alt='firstFlatPicture' className="firstFlatPicture" />
       </div>
-      <div className="humanPictureWrapper">
+      <div className="humanPictureWrapper grow">
         <img src={humanPicture} alt="humanPicture" className="humanPicture" />
         <div className="contactWrapper">
           <p className="contactEmail">info@site.ru</p>
@@ -32,7 +25,7 @@ export const HomePage = () => (
       </div>
     </div>
     <div className="firstFlatTitleWrapper">
-      <p className="firstFlatTitle">Отличный дизайн незаменим</p>
+      <h1 className="firstFlatTitle">Отличный дизайн незаменим</h1>
     </div>
     <div className="sofaInFlatWrapper">
       <img src={sofaInFlat} alt="sofaInFlatPicture" className="sofaInFlatPicture" />
