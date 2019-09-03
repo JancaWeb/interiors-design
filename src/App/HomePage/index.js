@@ -8,7 +8,7 @@ import sofaInFlat from '../../images/firstPageLastPic.jpg';
 import './homePage.css';
 
 export const HomePage = () => (
-  <div>
+  <div className="homePageWrapper">
     <div className="firstRowImagesWrapper">
       <div className="planImageWrapper grow">
         <img src={firstPicture} alt='planImage' className="planImage"/>

@@ -12,8 +12,8 @@ import { BigHumanTile } from './BigHumanTile';
 
 export const AboutUs = () => (
   <div>
-    <div className="aboutTitleWrapper">
-      <h3 className="aboutTitle">О нас</h3>
+    <div className="blackTitleWrapper">
+      <h3 className="blackTitle">О нас</h3>
     </div>
     <div className="aboutPageContentWrapper">
       <div className="aboutPageContent">
@@ -31,8 +31,8 @@ export const AboutUs = () => (
         <img src={aboutImage} alt="aboutPageImage" className="aboutPageImage" />
       </div>
     </div>
-    <div className="aboutTitleWrapper">
-      <h3 className="aboutTitle">Наша команда</h3>
+    <div className="blackTitleWrapper">
+      <h3 className="blackTitle">Наша команда</h3>
     </div>
     <div className="ourTeamWrapper">
       <HumanTile 

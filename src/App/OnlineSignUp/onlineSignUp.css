@@ -1,0 +1,67 @@
+.onlineSignUpWrapper {
+  margin: 1rem;
+  border: 5px solid;
+  padding: 2rem;
+}
+
+.onlineSignUpImage {
+  width: 100%;
+}
+
+.onlineSignUpSubTitle {
+  font-size: 1.5rem;
+}
+
+.onlineSignUpDescription {
+  font-size: 1rem;
+  line-height: 0.3;
+  font-weight: bold;
+}
+
+.onlineSignUpButton {
+  border: 1px solid #dbdbdb;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 3rem;
+  font-size: 1rem;
+  transition: background 0.8s;
+  background-position: center;
+}
+
+.onlineSignUpButton:hover {
+  background: #dbdbdb radial-gradient(circle, transparent 1%, #a9b2b9 1%) center/15000%;
+  cursor: pointer;
+}
+
+.onlineSignUpButton:active {
+  background-color: #a9b2b9;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.onlineSignUpItemWrapper {
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .onlineSignUpWrapper {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .onlineSignUpImage {
+    height: 30rem;
+  }
+
+  .onlineSignUpSubTitle {
+    font-size: 2.5rem;
+  }
+
+  .onlineSignUpDescription {
+    font-size: 1.5rem;
+  }
+
+  .onlineSignUpButton {
+    margin-bottom: 0;
+  }
+}

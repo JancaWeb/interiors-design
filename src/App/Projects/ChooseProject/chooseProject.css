@@ -1,0 +1,38 @@
+.projectsImagesWrapper {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 90vw;
+}
+
+.projectsImagesWrapper .projectsIndividualImageWrapper {
+  position: relative;
+  width: 23%;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.projectsImagesWrapper .projectsIndividualImageWrapper img {
+  width: 100%;
+  display: block;
+  transition: all .8s;
+}
+
+@media (max-width: 860px) {
+  .projectsImagesWrapper {
+    height: 150vw;
+  }
+  .projectsImagesWrapper .projectsIndividualImageWrapper {
+    width: 31.6%;
+  }
+}
+@media (max-width: 667px) {
+  .projectsImagesWrapper {
+    height: auto;
+  }
+  .projectsImagesWrapper .projectsIndividualImageWrapper {
+    width: 97.5%;
+  }
+}

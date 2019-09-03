@@ -1,0 +1,37 @@
+.selectDateTimeWrapper {
+  margin-top: 1rem;
+}
+
+.nextToCalendarWrapper {
+  flex-basis: 50%;
+  margin-top: 0.75rem;
+}
+
+.selectTimeOccupied {
+  opacity: 0.5;
+}
+
+.selectTimeFree:hover {
+  cursor: pointer;
+  background-color: #e6f7ff;
+}
+
+.selectTimeSelected {
+  background-color: #e6f7ff;
+  cursor: normal;
+}
+
+.continueButtonSelectTimeDisabled:hover {
+  background-color: inherit;
+  cursor: default;
+}
+
+@media (min-width: 640px) {
+  .selectDateTimeWrapper {
+    display: flex;
+  }
+
+  .calendarWrapper {
+    width: 80%;
+  }
+}

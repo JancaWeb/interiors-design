@@ -1,0 +1,55 @@
+.chosenProjectImagesWrapper {
+  display: block;
+  text-align: center;
+}
+
+.chosenProjectIndividualWrapper {
+  margin: 1rem;
+}
+
+.choosenProjectimage {
+  width: 100%;
+}
+
+.projectDescriptionTitle {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.projectDescriptionWrapper {
+  margin: 1rem;
+  padding: 1rem;
+  border: 0.5px solid #dbdbdb;
+  border-radius: 5px;
+}
+
+.arrowBack {
+  height: 50px;
+  width: 50px;
+}
+
+@media (min-width: 640px) {
+  .chosenProjectImagesWrapper {
+    display: flex;
+  }
+
+  .chosenProjectIndividualWrapper {
+    flex-basis: 80%;
+  }
+
+  .chosenProjectWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 130%;
+  }
+
+  .chosenProjectTwoImagesWrapper {
+    display: flex;
+  }
+
+  .arrowBack {
+    height: 200px;
+    width: 200px;
+  }
+}

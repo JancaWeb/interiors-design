@@ -1,0 +1,17 @@
+.selectDateTimeTitle {
+  color: #7c7b7b;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: normal;
+  border-bottom: 7px solid #7c7b7b;
+  width: 40%;
+  margin: auto;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+@media (min-width: 640px) {
+  .selectDateTimeTitle {
+    font-size: 3rem;
+  }
+}

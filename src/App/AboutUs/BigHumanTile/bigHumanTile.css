@@ -11,13 +11,9 @@
 }
 
 .bigTilePhotoWrapper {
-  height: 25rem;
+  height: auto;
 }
 
 .bigTilePhoto {
   width: 100%;
-}
-
-.bigHumanTileContent {
-  padding: 1rem;
 }

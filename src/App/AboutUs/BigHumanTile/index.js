@@ -9,7 +9,7 @@ export const BigHumanTile = () => (
     <div className="bigTilePhotoWrapper">
       <img src={bigTileImage} alt="bigTilePhoto" className="bigTilePhoto"/>
     </div>
-    <div className="bigHumanTileContent">
+    <div>
       <h3>{`София Янча`}</h3>
       <p>{`Арт Директор`}</p>
     </div>

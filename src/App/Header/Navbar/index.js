@@ -13,9 +13,9 @@ export const Navbar = () => (
         <div className="verticalDividerNavbar" />
         <Link to="/projects" >Проекты</Link>
         <div className="verticalDividerNavbar" />
-        <Link to="/" >Онлайн запись</Link>
+        <Link to="/online-sign-up" >Онлайн запись</Link>
         <div className="verticalDividerNavbar" />
-        <Link to="/" >Контакты</Link>
+        <Link to="/contacts" >Контакты</Link>
       </div>
       <div className="navBarBottomDivider" />
   </div>
