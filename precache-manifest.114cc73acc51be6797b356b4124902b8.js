@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0780f202307770086fa0ee173d0df2a5",
+    "revision": "f25bd923ec352275170e56faa763f03c",
     "url": "/interiors-design/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/interiors-design/static/css/2.848db5fd.chunk.css"
   },
   {
-    "revision": "6b257c9c6c3035053b2b",
+    "revision": "99fa2f9345d0b97f10e1",
     "url": "/interiors-design/static/css/main.0704fa6b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/interiors-design/static/js/2.b3d7531d.chunk.js"
   },
   {
-    "revision": "6b257c9c6c3035053b2b",
-    "url": "/interiors-design/static/js/main.fa7ecfb8.chunk.js"
+    "revision": "99fa2f9345d0b97f10e1",
+    "url": "/interiors-design/static/js/main.662ca4cc.chunk.js"
   },
   {
     "revision": "3559f20964d32d85dd03",
