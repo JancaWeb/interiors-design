@@ -42,11 +42,16 @@
   .formWrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 1200px;
   }
 
   .smallInputsWrapper {
     margin-left: 0;
     width: 50%;
+  }
+
+  .contactsSendButton {
+    max-height: 3rem;
   }
 }

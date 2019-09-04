@@ -1,7 +1,7 @@
 .bigHumanTileWrapper {
   text-align: center;
   margin: 0 1rem;
-  height: 43rem;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -16,4 +16,10 @@
 
 .bigTilePhoto {
   width: 100%;
+}
+
+@media (min-width: 640px) {
+  .bigHumanTileWrapper {
+    height: 43rem;
+  }
 }

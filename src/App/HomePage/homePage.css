@@ -116,12 +116,11 @@
   }
   
   .planImageWrapper {
-    margin-left: 1rem;
-    margin-bottom: 0;
+    margin: 1rem;
   }
   
   .firstFlatPictureWrapper {
-    margin-bottom: 0;
+    margin: 1rem;
   }
   
   .firstFlatPicture {
@@ -141,7 +140,7 @@
   }
   
   .humanPictureWrapper {
-    margin-bottom: 0;
+    margin: 1rem;
   }
   
   .contactEmail {

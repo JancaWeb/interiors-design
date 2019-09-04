@@ -1,0 +1,19 @@
+.footerWrapper {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  font-size: 0.7rem;
+  height: auto;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.footerWrapper p {
+  margin: 0;
+}
+
+@media (min-width: 640px) {
+  .footerWrapper {
+    font-size: 1rem;
+  }
+}

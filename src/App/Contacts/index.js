@@ -20,7 +20,7 @@ export const Contacts = () => (
         <Input placeholder="Ваш имайл"/>
         <Input placeholder="Ваш адрес" />
       </div>
-      <Input.TextArea rows={5} placeholder="Далщее вопросы"/>
+      <Input.TextArea rows={7} placeholder="Далщее вопросы"/>
       <button className="onlineSignUpButton contactsSendButton">Отослать</button>
     </div>
   </>
