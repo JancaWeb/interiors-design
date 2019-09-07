@@ -7,15 +7,15 @@ export const Navbar = () => (
   <div>
       <div className="navBarTopDivider" />
       <div className="linksWrapper">
-        <Link to="/" >Главная</Link>
+        <Link to="/interiors-design" >Главная</Link>
         <div className="verticalDividerNavbar" />
-        <Link to="/about" >О нас</Link>
+        <Link to="/interiors-design/about" >О нас</Link>
         <div className="verticalDividerNavbar" />
-        <Link to="/projects" >Проекты</Link>
+        <Link to="/interiors-design/projects" >Проекты</Link>
         <div className="verticalDividerNavbar" />
-        <Link to="/online-sign-up" >Онлайн запись</Link>
+        <Link to="/interiors-design/online-sign-up" >Онлайн запись</Link>
         <div className="verticalDividerNavbar" />
-        <Link to="/contacts" >Контакты</Link>
+        <Link to="/interiors-design/contacts" >Контакты</Link>
       </div>
       <div className="navBarBottomDivider" />
   </div>

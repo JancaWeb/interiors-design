@@ -51,7 +51,7 @@ export class CalendarComponent extends React.PureComponent {
                 <button 
                   className={`onlineSignUpButton ${!selectedTime ? 'continueButtonSelectTimeDisabled' : ''}`} 
                   disabled={!selectedTime}
-                  onClick={() => window.location.href = 'contacts'}
+                  onClick={() => window.location.href = '/interiors-design/contacts'}
                 >
                   Продолжить
                 </button>}

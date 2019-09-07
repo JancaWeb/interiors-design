@@ -13,11 +13,11 @@ import { Footer } from './Footer';
 const App = () => (
   <BrowserRouter>
     <Header />
-    <Route exact path='/' component={HomePage} />
-    <Route path='/about' component={AboutUs} />
-    <Route path='/projects' component={Projects} />
-    <Route path='/online-sign-up' component={OnlineSignUp} />
-    <Route path='/contacts' component={Contacts} />
+    <Route exact path='/interiors-design/' component={HomePage} />
+    <Route path='/interiors-design/about' component={AboutUs} />
+    <Route path='/interiors-design/projects' component={Projects} />
+    <Route path='/interiors-design/online-sign-up' component={OnlineSignUp} />
+    <Route path='/interiors-design/contacts' component={Contacts} />
     <Footer />
   </BrowserRouter>
 )

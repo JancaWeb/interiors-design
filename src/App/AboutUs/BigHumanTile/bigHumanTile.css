@@ -17,9 +17,3 @@
 .bigTilePhoto {
   width: 100%;
 }
-
-@media (min-width: 640px) {
-  .bigHumanTileWrapper {
-    height: 43rem;
-  }
-}
